@@ -1,41 +1,41 @@
-// arr=[1,6,8,3];
-// console.log(arr);
+ arr=[1,6,8,3];
+ console.log(arr);
 // // EMCAScript 2022 also introduces new  ..at()method in arrays which helps to index from last elements too easily;
 // // object where you can use the for of loop
 
 // //array as object
-// console.log(typeof arr);
+console.log(typeof arr);
 
 // // using array constructor
-// let fruits=new Array('apple','orange','banana');
-// console.log(fruits);
+ let fruits=new Array('apple','orange','banana');
+ console.log(fruits);
 
 // // using array literals
-// let fruits1=['apple','orange','banana'];
-// console.log(fruits1);
+ let fruits1=['apple','orange','banana'];
+ console.log(fruits1);
 
 
 //accessing an array elements
-// let fruits=['apple','banana','orange',1];
-// console.log(fruits[0]);
-// console.log(fruits[1]);
-// console.log(fruits[2]);
-// console.log(fruits[3]);
+ let fruits=['apple','banana','orange',1];
+ console.log(fruits[0]);
+ console.log(fruits[1]);
+ console.log(fruits[2]);
+ console.log(fruits[3]);
 
 //modifying element
 
-// for(let i of fruits){
-//     console.log(i);
+ for(let i of fruits){
+     console.log(i);
 
-// }
-// for(let i in fruits){
-//     console.log(i);
+ }
+ for(let i in fruits){
+   console.log(i);
 
-// }
-//let fruits = ['apple', 'banana', 'orange', 'chikku', 'papaya', 'watermelon'];
-// fruits.forEach((curEle, index, arr) => {
-//     console.log(`${curEle} ${index}`);
-// });
+ }
+let fruits = ['apple', 'banana', 'orange', 'chikku', 'papaya', 'watermelon'];
+ fruits.forEach((curEle, index, arr) => {
+     console.log(`${curEle} ${index}`);
+ });
 
 //let fruits = ['apple', 'banana', 'orange', 'chikku', 'papaya', 'watermelon'];
 // fruits.map((curEle, index, arr) => {
@@ -109,10 +109,10 @@ creating a new array `myForMap` by using the `map` method on the `fruits` array.
 //--------filters in arrays--------
 const numbers=[1,2,3,4,5,6,7,6,8,8,9];
 // //-----find method find the first element in an array
-// const result=numbers.find((curElem)=>{
-//     return curElem>8;
-// });
-// console.log(result); 
+const result=numbers.find((curElem)=>{
+     return curElem>8;
+ });
+ console.log(result); 
 let value=6;
 let updateToCart=numbers.filter((curElem)=>{
     return curElem!== value;
